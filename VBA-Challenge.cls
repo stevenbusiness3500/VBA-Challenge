@@ -1,13 +1,5 @@
-VERSION 1.0 CLASS
-BEGIN
-  MultiUse = -1  'True
-END
-Attribute VB_Name = "Sheet3"
-Attribute VB_GlobalNameSpace = False
-Attribute VB_Creatable = False
-Attribute VB_PredeclaredId = True
-Attribute VB_Exposed = True
- Sub Stocks()
+
+Sub Stocks()
  For Each ws In Worksheets
         ws.Range("I1").Value = "Ticker"
         ws.Range("J1").Value = "Yearly Change"
